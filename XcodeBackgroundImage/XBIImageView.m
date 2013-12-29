@@ -10,16 +10,11 @@
 
 @implementation XBIImageView
 
-- (BOOL)isOpaque
-{
-    return YES;
-}
-
 - (void)drawRect:(NSRect)dirtyRect
 {
     // Background
     [self.backgroundColor setFill];
-    NSRectFill(self.bounds);
+    NSRectFill(dirtyRect);
     
     // Calculate destination for image
     NSRect rect = NSZeroRect;
