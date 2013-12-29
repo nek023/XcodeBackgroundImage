@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA14DA1D186D88A200375CA7 /* XBIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA14DA1C186D88A200375CA7 /* XBIImageView.m */; };
+		AA14DA1F186DEF8A00375CA7 /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA14DA1E186DEF8A00375CA7 /* SettingsView.xib */; };
+		AA14DA22186DF32D00375CA7 /* XBISettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA14DA21186DF32D00375CA7 /* XBISettingsView.m */; };
+		AA2395AF186D5AA500918A3D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2395AE186D5AA500918A3D /* Cocoa.framework */; };
+		AA2395B9186D5AA500918A3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA2395B7186D5AA500918A3D /* InfoPlist.strings */; };
+		AA2395C2186D5AB000918A3D /* XBIPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2395C1186D5AB000918A3D /* XBIPlugin.m */; };
+		AA2395C5186D5C9400918A3D /* NSBundle+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2395C4186D5C9400918A3D /* NSBundle+Additions.m */; };
+		AA2395C9186D5D5600918A3D /* XBIUserDefaultsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2395C8186D5D5600918A3D /* XBIUserDefaultsManager.m */; };
+		AA2395DD186D82EF00918A3D /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2395DC186D82EF00918A3D /* DVTKit.framework */; };
+		AA4CFF43187010F6001ACAA6 /* XBIImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4CFF42187010F6001ACAA6 /* XBIImageManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA14DA1B186D88A200375CA7 /* XBIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBIImageView.h; sourceTree = "<group>"; };
+		AA14DA1C186D88A200375CA7 /* XBIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBIImageView.m; sourceTree = "<group>"; };
+		AA14DA1E186DEF8A00375CA7 /* SettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
+		AA14DA20186DF32D00375CA7 /* XBISettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBISettingsView.h; sourceTree = "<group>"; };
+		AA14DA21186DF32D00375CA7 /* XBISettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBISettingsView.m; sourceTree = "<group>"; };
+		AA2395AB186D5AA500918A3D /* XcodeBackgroundImage.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeBackgroundImage.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2395AE186D5AA500918A3D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AA2395B1186D5AA500918A3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA2395B2186D5AA500918A3D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AA2395B3186D5AA500918A3D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AA2395B6186D5AA500918A3D /* XcodeBackgroundImage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XcodeBackgroundImage-Info.plist"; sourceTree = "<group>"; };
+		AA2395B8186D5AA500918A3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA2395BA186D5AA500918A3D /* XcodeBackgroundImage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XcodeBackgroundImage-Prefix.pch"; sourceTree = "<group>"; };
+		AA2395C0186D5AB000918A3D /* XBIPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBIPlugin.h; sourceTree = "<group>"; };
+		AA2395C1186D5AB000918A3D /* XBIPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBIPlugin.m; sourceTree = "<group>"; };
+		AA2395C3186D5C9400918A3D /* NSBundle+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Additions.h"; sourceTree = "<group>"; };
+		AA2395C4186D5C9400918A3D /* NSBundle+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Additions.m"; sourceTree = "<group>"; };
+		AA2395C7186D5D5600918A3D /* XBIUserDefaultsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBIUserDefaultsManager.h; sourceTree = "<group>"; };
+		AA2395C8186D5D5600918A3D /* XBIUserDefaultsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBIUserDefaultsManager.m; sourceTree = "<group>"; };
+		AA2395CA186D63DC00918A3D /* Xcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Xcode.h; sourceTree = "<group>"; };
+		AA2395DC186D82EF00918A3D /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = ../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework; sourceTree = "<group>"; };
+		AA4CFF41187010F6001ACAA6 /* XBIImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBIImageManager.h; sourceTree = "<group>"; };
+		AA4CFF42187010F6001ACAA6 /* XBIImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBIImageManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA2395A8186D5AA500918A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2395DD186D82EF00918A3D /* DVTKit.framework in Frameworks */,
+				AA2395AF186D5AA500918A3D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA2395A2186D5AA500918A3D = {
+			isa = PBXGroup;
+			children = (
+				AA2395B4186D5AA500918A3D /* XcodeBackgroundImage */,
+				AA2395AD186D5AA500918A3D /* Frameworks */,
+				AA2395AC186D5AA500918A3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA2395AC186D5AA500918A3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA2395AB186D5AA500918A3D /* XcodeBackgroundImage.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA2395AD186D5AA500918A3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA2395DC186D82EF00918A3D /* DVTKit.framework */,
+				AA2395AE186D5AA500918A3D /* Cocoa.framework */,
+				AA2395B0186D5AA500918A3D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA2395B0186D5AA500918A3D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA2395B1186D5AA500918A3D /* Foundation.framework */,
+				AA2395B2186D5AA500918A3D /* CoreData.framework */,
+				AA2395B3186D5AA500918A3D /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AA2395B4186D5AA500918A3D /* XcodeBackgroundImage */ = {
+			isa = PBXGroup;
+			children = (
+				AA7B6D09186F377E0042C837 /* Xcode-Private-Headers */,
+				AA2395C6186D5CAB00918A3D /* Categories */,
+				AA7B6D0A186F37BE0042C837 /* Shared */,
+				AA7B6D0C186F37CD0042C837 /* Views */,
+				AA7B6D0B186F37C70042C837 /* Resources */,
+				AA2395B5186D5AA500918A3D /* Supporting Files */,
+			);
+			path = XcodeBackgroundImage;
+			sourceTree = "<group>";
+		};
+		AA2395B5186D5AA500918A3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA2395B6186D5AA500918A3D /* XcodeBackgroundImage-Info.plist */,
+				AA2395B7186D5AA500918A3D /* InfoPlist.strings */,
+				AA2395BA186D5AA500918A3D /* XcodeBackgroundImage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA2395C6186D5CAB00918A3D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				AA2395C3186D5C9400918A3D /* NSBundle+Additions.h */,
+				AA2395C4186D5C9400918A3D /* NSBundle+Additions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		AA7B6D09186F377E0042C837 /* Xcode-Private-Headers */ = {
+			isa = PBXGroup;
+			children = (
+				AA2395CA186D63DC00918A3D /* Xcode.h */,
+			);
+			name = "Xcode-Private-Headers";
+			sourceTree = "<group>";
+		};
+		AA7B6D0A186F37BE0042C837 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AA2395C7186D5D5600918A3D /* XBIUserDefaultsManager.h */,
+				AA2395C8186D5D5600918A3D /* XBIUserDefaultsManager.m */,
+				AA4CFF41187010F6001ACAA6 /* XBIImageManager.h */,
+				AA4CFF42187010F6001ACAA6 /* XBIImageManager.m */,
+				AA2395C0186D5AB000918A3D /* XBIPlugin.h */,
+				AA2395C1186D5AB000918A3D /* XBIPlugin.m */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		AA7B6D0B186F37C70042C837 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA14DA1E186DEF8A00375CA7 /* SettingsView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AA7B6D0C186F37CD0042C837 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA14DA1B186D88A200375CA7 /* XBIImageView.h */,
+				AA14DA1C186D88A200375CA7 /* XBIImageView.m */,
+				AA14DA20186DF32D00375CA7 /* XBISettingsView.h */,
+				AA14DA21186DF32D00375CA7 /* XBISettingsView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA2395AA186D5AA500918A3D /* XcodeBackgroundImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2395BD186D5AA500918A3D /* Build configuration list for PBXNativeTarget "XcodeBackgroundImage" */;
+			buildPhases = (
+				AA2395A7186D5AA500918A3D /* Sources */,
+				AA2395A8186D5AA500918A3D /* Frameworks */,
+				AA2395A9186D5AA500918A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XcodeBackgroundImage;
+			productName = XcodeBackgroundImage;
+			productReference = AA2395AB186D5AA500918A3D /* XcodeBackgroundImage.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA2395A3186D5AA500918A3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Katsuma Tanaka";
+			};
+			buildConfigurationList = AA2395A6186D5AA500918A3D /* Build configuration list for PBXProject "XcodeBackgroundImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA2395A2186D5AA500918A3D;
+			productRefGroup = AA2395AC186D5AA500918A3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA2395AA186D5AA500918A3D /* XcodeBackgroundImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA2395A9186D5AA500918A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2395B9186D5AA500918A3D /* InfoPlist.strings in Resources */,
+				AA14DA1F186DEF8A00375CA7 /* SettingsView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA2395A7186D5AA500918A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2395C5186D5C9400918A3D /* NSBundle+Additions.m in Sources */,
+				AA2395C2186D5AB000918A3D /* XBIPlugin.m in Sources */,
+				AA14DA1D186D88A200375CA7 /* XBIImageView.m in Sources */,
+				AA4CFF43187010F6001ACAA6 /* XBIImageManager.m in Sources */,
+				AA14DA22186DF32D00375CA7 /* XBISettingsView.m in Sources */,
+				AA2395C9186D5D5600918A3D /* XBIUserDefaultsManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA2395B7186D5AA500918A3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA2395B8186D5AA500918A3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA2395BB186D5AA500918A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA2395BC186D5AA500918A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA2395BE186D5AA500918A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XcodeBackgroundImage/XcodeBackgroundImage-Prefix.pch";
+				INFOPLIST_FILE = "XcodeBackgroundImage/XcodeBackgroundImage-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		AA2395BF186D5AA500918A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XcodeBackgroundImage/XcodeBackgroundImage-Prefix.pch";
+				INFOPLIST_FILE = "XcodeBackgroundImage/XcodeBackgroundImage-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA2395A6186D5AA500918A3D /* Build configuration list for PBXProject "XcodeBackgroundImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2395BB186D5AA500918A3D /* Debug */,
+				AA2395BC186D5AA500918A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA2395BD186D5AA500918A3D /* Build configuration list for PBXNativeTarget "XcodeBackgroundImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA2395BE186D5AA500918A3D /* Debug */,
+				AA2395BF186D5AA500918A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA2395A3186D5AA500918A3D /* Project object */;
+}
